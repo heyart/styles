@@ -255,3 +255,74 @@ h5 {
   text-align: center;
   border-radius: 0.1875rem;
 }
+
+/** Forms **/
+.input-label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: normal;
+	color: #1C1E23;
+}
+
+.ui-input {
+	display: block;
+	margin: 0;
+	max-width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 0 auto;
+	-ms-flex: 1 0 auto;
+	flex: 1 0 auto;
+	outline: none;
+	text-align: left;
+	line-height: 1.5em;
+	font-family: 'Helvetica Neue' Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 0.5em;
+	background-color: #fff;
+	border: 1px solid #788093;
+	color: #1c1e23;
+	border-radius: 0.1875rem;
+	box-shadow: none;
+}
+
+.ui-input-focused {
+	display: block;
+	margin: 0;
+	max-width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 0 auto;
+	-ms-flex: 1 0 auto;
+	flex: 1 0 auto;
+	outline: none;
+	text-align: left;
+	line-height: 1.5em;
+	font-family: 'Helvetica Neue' Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 0.5em;
+	background-color: #fff;
+	border: 1px solid #788093;
+	color: #1c1e23;
+	border-radius: 0.1875rem;
+	box-shadow: 0 0 3px #5DA9E8, 0 0 7px #5DA9E8;
+}
+
+/*--------------------
+      Placeholder
+---------------------*/
+
+/* browsers require these rules separate */
+
+.ui-input input::-webkit-input-placeholder {
+	color: #788093;
+}
+
+.ui-input input::-moz-placeholder {
+	color: #788093;
+}
+
+.ui-input input::-ms-input-placeholder {
+	color: #788093;
+}
