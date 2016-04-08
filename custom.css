@@ -37,6 +37,10 @@ h5 {
 	font-size: 1em; /**16px**/
 }
 
+.container {
+	width: 100%;
+	margin: 10px 0px;
+}
 /**
  * Background color
  */
